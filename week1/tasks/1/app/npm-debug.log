@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose readDependencies loading dependencies from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json
+5 warn package.json app@1.0.0 No description
+6 warn package.json app@1.0.0 No repository field.
+7 warn package.json app@1.0.0 No README data
+8 warn package.json Dependency 'typescript' exists in both dependencies and devDependencies, using 'typescript@^1.8.10' from dependencies
+9 verbose install where, deps [ '/home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1',
+9 verbose install   [ '@angular/common',
+9 verbose install     '@angular/compiler',
+9 verbose install     '@angular/core',
+9 verbose install     '@angular/platform-browser',
+9 verbose install     '@angular/platform-browser-dynamic',
+9 verbose install     '@angular/router',
+9 verbose install     '@angular/forms',
+9 verbose install     'core-js',
+9 verbose install     'reflect-metadata',
+9 verbose install     'rxjs',
+9 verbose install     'systemjs',
+9 verbose install     'typescript',
+9 verbose install     'zone.js',
+9 verbose install     'concurrently',
+9 verbose install     'lite-server',
+9 verbose install     'tsc' ] ]
+10 verbose install where, peers [ '/home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1',
+10 verbose install   [] ]
+11 verbose installManyTop reading for lifecycle /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json
+12 info preinstall app@1.0.0
+13 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/concurrently/package.json
+14 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/core-js/package.json
+15 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms/package.json
+16 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/lite-server/package.json
+17 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/reflect-metadata/package.json
+18 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/rxjs/package.json
+19 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/systemjs/package.json
+20 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/tsc/package.json
+21 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/typescript/package.json
+22 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/zone.js/package.json
+23 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/common/package.json
+24 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/compiler/package.json
+25 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/core/package.json
+26 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms/package.json
+27 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser/package.json
+28 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser-dynamic/package.json
+29 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/router/package.json
+30 info package.json core-js@2.4.1 No README data
+31 info package.json @angular/common@2.0.0-rc.6 No description
+32 info package.json @angular/common@2.0.0-rc.6 No README data
+33 info package.json @angular/compiler@2.0.0-rc.6 No README data
+34 info package.json @angular/core@2.0.0-rc.6 No README data
+35 info package.json @angular/forms@2.0.0-rc.7 No README data
+36 info package.json @angular/platform-browser@2.0.0-rc.6 No README data
+37 info package.json @angular/platform-browser-dynamic@2.0.0-rc.6 No README data
+38 info package.json @angular/router@3.0.0-rc.2 No README data
+39 verbose readDependencies loading dependencies from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json
+40 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/concurrently/package.json
+41 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/core-js/package.json
+42 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms/package.json
+43 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/lite-server/package.json
+44 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/reflect-metadata/package.json
+45 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/rxjs/package.json
+46 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/systemjs/package.json
+47 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/tsc/package.json
+48 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/typescript/package.json
+49 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/zone.js/package.json
+50 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/concurrent/package.json
+51 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/concurrently/package.json
+52 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/lite-server/package.json
+53 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/tsc/package.json
+54 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/tsserver/package.json
+55 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/common/package.json
+56 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/compiler/package.json
+57 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/core/package.json
+58 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms/package.json
+59 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser/package.json
+60 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser-dynamic/package.json
+61 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/router/package.json
+62 verbose already installed skipping rxjs@5.0.0-beta.11 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+63 verbose already installed skipping systemjs@0.19.27 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+64 verbose already installed skipping typescript@^1.8.10 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+65 verbose already installed skipping zone.js@^0.6.17 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+66 verbose already installed skipping concurrently@^2.2.0 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+67 verbose already installed skipping lite-server@^2.2.2 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+68 verbose already installed skipping tsc@^1.20150623.0 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+69 verbose already installed skipping @angular/common@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+70 verbose already installed skipping @angular/compiler@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+71 verbose already installed skipping @angular/core@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+72 verbose already installed skipping @angular/platform-browser@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+73 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+74 verbose already installed skipping @angular/router@3.0.0-rc.2 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+75 verbose already installed skipping @angular/forms@2.0.0-rc.7 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+76 verbose already installed skipping core-js@^2.4.1 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+77 verbose already installed skipping reflect-metadata@^0.1.3 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+78 silly install resolved []
+79 info build /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+80 info linkStuff app@1.0.0
+81 silly linkStuff app@1.0.0 has /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks as its parent node_modules
+82 verbose linkBins app@1.0.0
+83 verbose linkMans app@1.0.0
+84 verbose rebuildBundles app@1.0.0
+85 verbose rebuildBundles [ '.bin',
+85 verbose rebuildBundles   '@angular',
+85 verbose rebuildBundles   'concurrently',
+85 verbose rebuildBundles   'core-js',
+85 verbose rebuildBundles   'forms',
+85 verbose rebuildBundles   'lite-server',
+85 verbose rebuildBundles   'reflect-metadata',
+85 verbose rebuildBundles   'rxjs',
+85 verbose rebuildBundles   'systemjs',
+85 verbose rebuildBundles   'tsc',
+85 verbose rebuildBundles   'typescript',
+85 verbose rebuildBundles   'zone.js' ]
+86 verbose rebuild bundle /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms
+87 info build /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms
+88 info preinstall forms@1.2.0
+89 info linkStuff forms@1.2.0
+90 silly linkStuff forms@1.2.0 has /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules as its parent node_modules
+91 verbose linkBins forms@1.2.0
+92 verbose linkMans forms@1.2.0
+93 verbose rebuildBundles forms@1.2.0
+94 info install forms@1.2.0
+95 info postinstall forms@1.2.0
+96 info install app@1.0.0
+97 info postinstall app@1.0.0
+98 info prepublish app@1.0.0
+99 verbose validateInstall loading /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json for validation
+100 verbose stack Error: The package @angular/common@2.0.0-rc.6 does not satisfy its siblings' peerDependencies requirements!
+100 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+100 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+100 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+100 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+100 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+100 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+100 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+100 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+100 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+100 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+101 verbose cwd /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/app
+102 error Linux 4.4.0-36-generic
+103 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+104 error node v4.4.5
+105 error npm  v2.15.5
+106 error code EPEERINVALID
+107 error peerinvalid The package @angular/common@2.0.0-rc.6 does not satisfy its siblings' peerDependencies requirements!
+107 error peerinvalid Peer @angular/platform-browser@2.0.0-rc.6 wants @angular/common@^2.0.0-rc.6
+107 error peerinvalid Peer @angular/platform-browser-dynamic@2.0.0-rc.6 wants @angular/common@^2.0.0-rc.6
+107 error peerinvalid Peer @angular/router@3.0.0-rc.2 wants @angular/common@^2.0.0-rc.6
+107 error peerinvalid Peer @angular/forms@2.0.0-rc.7 wants @angular/common@^2.0.0-rc.7
+108 verbose exit [ 1, true ]

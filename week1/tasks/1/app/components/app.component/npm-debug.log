@@ -1,0 +1,671 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose readDependencies loading dependencies from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json
+5 warn package.json app@1.0.0 No description
+6 warn package.json app@1.0.0 No repository field.
+7 warn package.json app@1.0.0 No README data
+8 warn package.json Dependency 'typescript' exists in both dependencies and devDependencies, using 'typescript@^1.8.10' from dependencies
+9 verbose install where, deps [ '/home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1',
+9 verbose install   [ '@angular/common',
+9 verbose install     '@angular/compiler',
+9 verbose install     '@angular/core',
+9 verbose install     '@angular/platform-browser',
+9 verbose install     '@angular/platform-browser-dynamic',
+9 verbose install     '@angular/router',
+9 verbose install     '@angular/forms',
+9 verbose install     'core-js',
+9 verbose install     'reflect-metadata',
+9 verbose install     'rxjs',
+9 verbose install     'systemjs',
+9 verbose install     'typescript',
+9 verbose install     'zone.js',
+9 verbose install     'concurrently',
+9 verbose install     'lite-server',
+9 verbose install     'tsc' ] ]
+10 verbose install where, peers [ '/home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1',
+10 verbose install   [] ]
+11 verbose installManyTop reading for lifecycle /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json
+12 info preinstall app@1.0.0
+13 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/concurrently/package.json
+14 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/core-js/package.json
+15 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms/package.json
+16 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/lite-server/package.json
+17 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/reflect-metadata/package.json
+18 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/rxjs/package.json
+19 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/systemjs/package.json
+20 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/tsc/package.json
+21 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/typescript/package.json
+22 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/zone.js/package.json
+23 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/common/package.json
+24 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/compiler/package.json
+25 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/core/package.json
+26 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser/package.json
+27 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser-dynamic/package.json
+28 verbose installManyTop reading scoped package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/router/package.json
+29 info package.json core-js@2.4.1 No README data
+30 info package.json @angular/common@2.0.0-rc.6 No description
+31 info package.json @angular/common@2.0.0-rc.6 No README data
+32 info package.json @angular/compiler@2.0.0-rc.6 No README data
+33 info package.json @angular/core@2.0.0-rc.6 No README data
+34 info package.json @angular/platform-browser@2.0.0-rc.6 No README data
+35 info package.json @angular/platform-browser-dynamic@2.0.0-rc.6 No README data
+36 info package.json @angular/router@3.0.0-rc.2 No README data
+37 verbose readDependencies loading dependencies from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json
+38 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/concurrently/package.json
+39 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/core-js/package.json
+40 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms/package.json
+41 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/lite-server/package.json
+42 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/reflect-metadata/package.json
+43 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/rxjs/package.json
+44 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/systemjs/package.json
+45 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/tsc/package.json
+46 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/typescript/package.json
+47 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/zone.js/package.json
+48 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/concurrent/package.json
+49 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/concurrently/package.json
+50 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/lite-server/package.json
+51 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/tsc/package.json
+52 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/tsserver/package.json
+53 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/common/package.json
+54 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/compiler/package.json
+55 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/core/package.json
+56 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser/package.json
+57 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser-dynamic/package.json
+58 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/router/package.json
+59 verbose already installed skipping rxjs@5.0.0-beta.11 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+60 verbose already installed skipping systemjs@0.19.27 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+61 verbose already installed skipping typescript@^1.8.10 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+62 verbose already installed skipping zone.js@^0.6.17 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+63 verbose already installed skipping concurrently@^2.2.0 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+64 verbose already installed skipping lite-server@^2.2.2 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+65 verbose already installed skipping tsc@^1.20150623.0 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+66 verbose already installed skipping @angular/common@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+67 verbose already installed skipping @angular/compiler@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+68 verbose already installed skipping @angular/core@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+69 verbose already installed skipping @angular/platform-browser@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+70 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.6 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+71 verbose already installed skipping @angular/router@3.0.0-rc.2 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+72 silly cache add args [ '@angular/forms@2.0.0-rc.7', null ]
+73 verbose cache add spec @angular/forms@2.0.0-rc.7
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: '@angular/forms@2.0.0-rc.7',
+74 silly cache add   scope: '@angular',
+74 silly cache add   name: '@angular/forms',
+74 silly cache add   rawSpec: '2.0.0-rc.7',
+74 silly cache add   spec: '2.0.0-rc.7',
+74 silly cache add   type: 'version' }
+75 silly addNamed @angular/forms@2.0.0-rc.7
+76 verbose addNamed "2.0.0-rc.7" is a plain semver version for @angular/forms
+77 silly mapToRegistry name @angular/forms
+78 silly mapToRegistry scope (from package name) @angular
+79 verbose mapToRegistry no registry URL found in name for scope @angular
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: '@angular/forms',
+82 silly mapToRegistry   scope: '@angular',
+82 silly mapToRegistry   name: '@angular/forms',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+84 verbose addNameVersion registry:https://registry.npmjs.org/@angular%2fforms not in flight; fetching
+85 verbose already installed skipping core-js@^2.4.1 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+86 verbose already installed skipping reflect-metadata@^0.1.3 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+87 verbose request uri https://registry.npmjs.org/@angular%2fforms
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 11:46:32
+90 verbose request id d2cf5da3e36cd012
+91 http request GET https://registry.npmjs.org/@angular%2fforms
+92 http 200 https://registry.npmjs.org/@angular%2fforms
+93 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+93 verbose headers   etag: '"954TK9IXCWNV471MPBVSPBUT1"',
+93 verbose headers   'content-type': 'application/json',
+93 verbose headers   'content-encoding': 'gzip',
+93 verbose headers   'cache-control': 'max-age=0',
+93 verbose headers   'transfer-encoding': 'chunked',
+93 verbose headers   'accept-ranges': 'bytes',
+93 verbose headers   date: 'Wed, 14 Sep 2016 08:46:33 GMT',
+93 verbose headers   via: '1.1 varnish',
+93 verbose headers   age: '0',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'x-served-by': 'cache-bma7028-BMA',
+93 verbose headers   'x-cache': 'MISS',
+93 verbose headers   'x-cache-hits': '0',
+93 verbose headers   'x-timer': 'S1473842792.488970,VS0,VE784',
+93 verbose headers   vary: 'Accept-Encoding' }
+94 silly get cb [ 200,
+94 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+94 silly get     etag: '"954TK9IXCWNV471MPBVSPBUT1"',
+94 silly get     'content-type': 'application/json',
+94 silly get     'content-encoding': 'gzip',
+94 silly get     'cache-control': 'max-age=0',
+94 silly get     'transfer-encoding': 'chunked',
+94 silly get     'accept-ranges': 'bytes',
+94 silly get     date: 'Wed, 14 Sep 2016 08:46:33 GMT',
+94 silly get     via: '1.1 varnish',
+94 silly get     age: '0',
+94 silly get     connection: 'keep-alive',
+94 silly get     'x-served-by': 'cache-bma7028-BMA',
+94 silly get     'x-cache': 'MISS',
+94 silly get     'x-cache-hits': '0',
+94 silly get     'x-timer': 'S1473842792.488970,VS0,VE784',
+94 silly get     vary: 'Accept-Encoding' } ]
+95 verbose get saving @angular/forms to /home/kbadova/.npm/registry.npmjs.org/_40angular_252fforms/.cache.json
+96 verbose correctMkdir /home/kbadova/.npm correctMkdir not in flight; initializing
+97 silly mapToRegistry name @angular/forms
+98 silly mapToRegistry scope (from package name) @angular
+99 verbose mapToRegistry no registry URL found in name for scope @angular
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry data Result {
+102 silly mapToRegistry   raw: '@angular/forms',
+102 silly mapToRegistry   scope: '@angular',
+102 silly mapToRegistry   name: '@angular/forms',
+102 silly mapToRegistry   rawSpec: '',
+102 silly mapToRegistry   spec: 'latest',
+102 silly mapToRegistry   type: 'tag' }
+103 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fforms
+104 verbose addRemoteTarball https://registry.npmjs.org/@angular/forms/-/forms-2.0.0-rc.7.tgz not in flight; adding
+105 verbose addRemoteTarball [ 'https://registry.npmjs.org/@angular/forms/-/forms-2.0.0-rc.7.tgz',
+105 verbose addRemoteTarball   '68bb6552e4fb773847994ead730efa90fa4c8016' ]
+106 info retry fetch attempt 1 at 11:46:33
+107 info attempt registry request try #1 at 11:46:33
+108 http fetch GET https://registry.npmjs.org/@angular/forms/-/forms-2.0.0-rc.7.tgz
+109 http fetch 200 https://registry.npmjs.org/@angular/forms/-/forms-2.0.0-rc.7.tgz
+110 silly fetchAndShaCheck shasum 68bb6552e4fb773847994ead730efa90fa4c8016
+111 verbose addTmpTarball /tmp/npm-2580-293485aa/registry.npmjs.org/_40angular/forms/-/forms-2.0.0-rc.7.tgz not in flight; adding
+112 verbose addTmpTarball already have metadata; skipping unpack for @angular/forms@2.0.0-rc.7
+113 verbose correctMkdir /home/kbadova/.npm correctMkdir not in flight; initializing
+114 silly cache afterAdd @angular/forms@2.0.0-rc.7
+115 verbose afterAdd /home/kbadova/.npm/@angular/forms/2.0.0-rc.7/package/package.json not in flight; writing
+116 verbose correctMkdir /home/kbadova/.npm correctMkdir not in flight; initializing
+117 verbose afterAdd /home/kbadova/.npm/@angular/forms/2.0.0-rc.7/package/package.json written
+118 silly install resolved [ { name: '@angular/forms',
+118 silly install resolved     version: '2.0.0-rc.7',
+118 silly install resolved     description: 'Angular 2 forms',
+118 silly install resolved     main: 'bundles/forms.umd.js',
+118 silly install resolved     module: 'index.js',
+118 silly install resolved     typings: 'index.d.ts',
+118 silly install resolved     author: { name: 'angular' },
+118 silly install resolved     license: 'MIT',
+118 silly install resolved     peerDependencies:
+118 silly install resolved      { '@angular/core': '^2.0.0-rc.7',
+118 silly install resolved        '@angular/common': '^2.0.0-rc.7' },
+118 silly install resolved     repository:
+118 silly install resolved      { type: 'git',
+118 silly install resolved        url: 'git+https://github.com/angular/angular.git' },
+118 silly install resolved     bugs: { url: 'https://github.com/angular/angular/issues' },
+118 silly install resolved     homepage: 'https://github.com/angular/angular#readme',
+118 silly install resolved     _id: '@angular/forms@2.0.0-rc.7',
+118 silly install resolved     scripts: {},
+118 silly install resolved     _shasum: '68bb6552e4fb773847994ead730efa90fa4c8016',
+118 silly install resolved     _from: '@angular/forms@2.0.0-rc.7',
+118 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular/forms/-/forms-2.0.0-rc.7.tgz',
+118 silly install resolved     _npmVersion: '3.9.2',
+118 silly install resolved     _nodeVersion: '5.4.1',
+118 silly install resolved     _npmUser: { name: 'angular', email: 'angular-core+npm@google.com' },
+118 silly install resolved     dist:
+118 silly install resolved      { shasum: '68bb6552e4fb773847994ead730efa90fa4c8016',
+118 silly install resolved        tarball: 'https://registry.npmjs.org/@angular/forms/-/forms-2.0.0-rc.7.tgz' },
+118 silly install resolved     maintainers: [ [Object] ],
+118 silly install resolved     _npmOperationalInternal:
+118 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+118 silly install resolved        tmp: 'tmp/forms-2.0.0-rc.7.tgz_1473749073312_0.33595531759783626' },
+118 silly install resolved     directories: {} } ]
+119 info install @angular/forms@2.0.0-rc.7 into /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+120 info installOne @angular/forms@2.0.0-rc.7
+121 verbose installOne of @angular/forms to /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1 not in flight; installing
+122 verbose correctMkdir /home/kbadova/.npm/_locks correctMkdir not in flight; initializing
+123 verbose lock using /home/kbadova/.npm/_locks/angular-forms-4c6e85ad09a55ef5.lock for /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+124 silly install write writing @angular/forms 2.0.0-rc.7 to /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+125 verbose unbuild node_modules/@angular/forms
+126 silly gentlyRm /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms is being purged from base /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+127 verbose gentlyRm don't care about contents; nuking /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+128 verbose tar unpack /home/kbadova/.npm/@angular/forms/2.0.0-rc.7/package.tgz
+129 verbose tar unpacking to /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+130 silly gentlyRm /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms is being purged
+131 verbose gentlyRm don't care about contents; nuking /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+132 silly gunzTarPerm modes [ '775', '664' ]
+133 silly gunzTarPerm extractEntry package.json
+134 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+135 silly gunzTarPerm extractEntry index.js
+136 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+137 silly gunzTarPerm extractEntry bundles/forms.umd.js
+138 silly gunzTarPerm modified mode [ 'bundles/forms.umd.js', 420, 436 ]
+139 silly gunzTarPerm extractEntry bundles/forms.umd.min.js
+140 silly gunzTarPerm modified mode [ 'bundles/forms.umd.min.js', 420, 436 ]
+141 silly gunzTarPerm extractEntry index.d.ts
+142 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 436 ]
+143 silly gunzTarPerm extractEntry index.js.map
+144 silly gunzTarPerm modified mode [ 'index.js.map', 420, 436 ]
+145 silly gunzTarPerm extractEntry index.metadata.json
+146 silly gunzTarPerm modified mode [ 'index.metadata.json', 420, 436 ]
+147 silly gunzTarPerm extractEntry src/directives.js
+148 silly gunzTarPerm modified mode [ 'src/directives.js', 420, 436 ]
+149 silly gunzTarPerm extractEntry src/form_builder.js
+150 silly gunzTarPerm modified mode [ 'src/form_builder.js', 420, 436 ]
+151 silly gunzTarPerm extractEntry src/form_providers.js
+152 silly gunzTarPerm modified mode [ 'src/form_providers.js', 420, 436 ]
+153 silly gunzTarPerm extractEntry src/forms.js
+154 silly gunzTarPerm modified mode [ 'src/forms.js', 420, 436 ]
+155 silly gunzTarPerm extractEntry src/model.js
+156 silly gunzTarPerm modified mode [ 'src/model.js', 420, 436 ]
+157 silly gunzTarPerm extractEntry src/validators.js
+158 silly gunzTarPerm modified mode [ 'src/validators.js', 420, 436 ]
+159 silly gunzTarPerm extractEntry src/form_providers.metadata.json
+160 silly gunzTarPerm modified mode [ 'src/form_providers.metadata.json', 420, 436 ]
+161 silly gunzTarPerm extractEntry src/directives/ng_model.js
+162 silly gunzTarPerm modified mode [ 'src/directives/ng_model.js', 420, 436 ]
+163 silly gunzTarPerm extractEntry src/directives/form_interface.js
+164 silly gunzTarPerm modified mode [ 'src/directives/form_interface.js', 420, 436 ]
+165 silly gunzTarPerm extractEntry src/directives/ng_control.js
+166 silly gunzTarPerm modified mode [ 'src/directives/ng_control.js', 420, 436 ]
+167 silly gunzTarPerm extractEntry src/directives/ng_control_status.js
+168 silly gunzTarPerm modified mode [ 'src/directives/ng_control_status.js', 420, 436 ]
+169 silly gunzTarPerm extractEntry src/directives/ng_form.js
+170 silly gunzTarPerm modified mode [ 'src/directives/ng_form.js', 420, 436 ]
+171 silly gunzTarPerm extractEntry src/directives/error_examples.js
+172 silly gunzTarPerm modified mode [ 'src/directives/error_examples.js', 420, 436 ]
+173 silly gunzTarPerm extractEntry src/directives/ng_model_group.js
+174 silly gunzTarPerm modified mode [ 'src/directives/ng_model_group.js', 420, 436 ]
+175 silly gunzTarPerm extractEntry src/directives/normalize_validator.js
+176 silly gunzTarPerm modified mode [ 'src/directives/normalize_validator.js', 420, 436 ]
+177 silly gunzTarPerm extractEntry src/directives/number_value_accessor.js
+178 silly gunzTarPerm modified mode [ 'src/directives/number_value_accessor.js', 420, 436 ]
+179 silly gunzTarPerm extractEntry src/directives/radio_control_value_accessor.js
+180 silly gunzTarPerm modified mode [ 'src/directives/radio_control_value_accessor.js', 420, 436 ]
+181 silly gunzTarPerm extractEntry src/directives/reactive_errors.js
+182 silly gunzTarPerm modified mode [ 'src/directives/reactive_errors.js', 420, 436 ]
+183 silly gunzTarPerm extractEntry src/directives/default_value_accessor.js
+184 silly gunzTarPerm modified mode [ 'src/directives/default_value_accessor.js', 420, 436 ]
+185 silly gunzTarPerm extractEntry src/directives/select_control_value_accessor.js
+186 silly gunzTarPerm modified mode [ 'src/directives/select_control_value_accessor.js', 420, 436 ]
+187 silly gunzTarPerm extractEntry src/directives/control_value_accessor.js
+188 silly gunzTarPerm modified mode [ 'src/directives/control_value_accessor.js', 420, 436 ]
+189 silly gunzTarPerm extractEntry src/directives/select_multiple_control_value_accessor.js
+190 silly gunzTarPerm modified mode [ 'src/directives/select_multiple_control_value_accessor.js',
+190 silly gunzTarPerm   420,
+190 silly gunzTarPerm   436 ]
+191 silly gunzTarPerm extractEntry src/directives/control_container.js
+192 silly gunzTarPerm modified mode [ 'src/directives/control_container.js', 420, 436 ]
+193 silly gunzTarPerm extractEntry src/directives/shared.js
+194 silly gunzTarPerm modified mode [ 'src/directives/shared.js', 420, 436 ]
+195 silly gunzTarPerm extractEntry src/directives/checkbox_value_accessor.js
+196 silly gunzTarPerm modified mode [ 'src/directives/checkbox_value_accessor.js', 420, 436 ]
+197 silly gunzTarPerm extractEntry src/directives/template_driven_errors.js
+198 silly gunzTarPerm modified mode [ 'src/directives/template_driven_errors.js', 420, 436 ]
+199 silly gunzTarPerm extractEntry src/directives/abstract_form_group_directive.js
+200 silly gunzTarPerm modified mode [ 'src/directives/abstract_form_group_directive.js', 420, 436 ]
+201 silly gunzTarPerm extractEntry src/directives/validators.js
+202 silly gunzTarPerm modified mode [ 'src/directives/validators.js', 420, 436 ]
+203 silly gunzTarPerm extractEntry src/directives/abstract_control_directive.js
+204 silly gunzTarPerm modified mode [ 'src/directives/abstract_control_directive.js', 420, 436 ]
+205 silly gunzTarPerm extractEntry src/directives/checkbox_value_accessor.d.ts
+206 silly gunzTarPerm modified mode [ 'src/directives/checkbox_value_accessor.d.ts', 420, 436 ]
+207 silly gunzTarPerm extractEntry src/directives/error_examples.js.map
+208 silly gunzTarPerm modified mode [ 'src/directives/error_examples.js.map', 420, 436 ]
+209 silly gunzTarPerm extractEntry src/directives/error_examples.metadata.json
+210 silly gunzTarPerm modified mode [ 'src/directives/error_examples.metadata.json', 420, 436 ]
+211 silly gunzTarPerm extractEntry src/directives/form_interface.d.ts
+212 silly gunzTarPerm modified mode [ 'src/directives/form_interface.d.ts', 420, 436 ]
+213 silly gunzTarPerm extractEntry src/directives/abstract_control_directive.js.map
+214 silly gunzTarPerm modified mode [ 'src/directives/abstract_control_directive.js.map', 420, 436 ]
+215 silly gunzTarPerm extractEntry src/directives/form_interface.js.map
+216 silly gunzTarPerm modified mode [ 'src/directives/form_interface.js.map', 420, 436 ]
+217 silly gunzTarPerm extractEntry src/directives/ng_control.d.ts
+218 silly gunzTarPerm modified mode [ 'src/directives/ng_control.d.ts', 420, 436 ]
+219 silly gunzTarPerm extractEntry src/directives/checkbox_value_accessor.js.map
+220 silly gunzTarPerm modified mode [ 'src/directives/checkbox_value_accessor.js.map', 420, 436 ]
+221 silly gunzTarPerm extractEntry src/directives/ng_control.js.map
+222 silly gunzTarPerm modified mode [ 'src/directives/ng_control.js.map', 420, 436 ]
+223 silly gunzTarPerm extractEntry src/directives/ng_control_status.d.ts
+224 silly gunzTarPerm modified mode [ 'src/directives/ng_control_status.d.ts', 420, 436 ]
+225 silly gunzTarPerm extractEntry src/directives/checkbox_value_accessor.metadata.json
+226 silly gunzTarPerm modified mode [ 'src/directives/checkbox_value_accessor.metadata.json',
+226 silly gunzTarPerm   420,
+226 silly gunzTarPerm   436 ]
+227 silly gunzTarPerm extractEntry src/directives/ng_control_status.js.map
+228 silly gunzTarPerm modified mode [ 'src/directives/ng_control_status.js.map', 420, 436 ]
+229 silly gunzTarPerm extractEntry src/directives/ng_control_status.metadata.json
+230 silly gunzTarPerm modified mode [ 'src/directives/ng_control_status.metadata.json', 420, 436 ]
+231 silly gunzTarPerm extractEntry src/directives/ng_form.d.ts
+232 silly gunzTarPerm modified mode [ 'src/directives/ng_form.d.ts', 420, 436 ]
+233 silly gunzTarPerm extractEntry src/directives/control_container.d.ts
+234 silly gunzTarPerm modified mode [ 'src/directives/control_container.d.ts', 420, 436 ]
+235 silly gunzTarPerm extractEntry src/directives/ng_form.js.map
+236 silly gunzTarPerm modified mode [ 'src/directives/ng_form.js.map', 420, 436 ]
+237 silly gunzTarPerm extractEntry src/directives/ng_form.metadata.json
+238 silly gunzTarPerm modified mode [ 'src/directives/ng_form.metadata.json', 420, 436 ]
+239 silly gunzTarPerm extractEntry src/directives/ng_model.d.ts
+240 silly gunzTarPerm modified mode [ 'src/directives/ng_model.d.ts', 420, 436 ]
+241 silly gunzTarPerm extractEntry src/directives/abstract_form_group_directive.d.ts
+242 silly gunzTarPerm modified mode [ 'src/directives/abstract_form_group_directive.d.ts', 420, 436 ]
+243 silly gunzTarPerm extractEntry src/directives/ng_model.js.map
+244 silly gunzTarPerm modified mode [ 'src/directives/ng_model.js.map', 420, 436 ]
+245 silly gunzTarPerm extractEntry src/directives/ng_model.metadata.json
+246 silly gunzTarPerm modified mode [ 'src/directives/ng_model.metadata.json', 420, 436 ]
+247 silly gunzTarPerm extractEntry src/directives/ng_model_group.d.ts
+248 silly gunzTarPerm modified mode [ 'src/directives/ng_model_group.d.ts', 420, 436 ]
+249 silly gunzTarPerm extractEntry src/directives/control_container.js.map
+250 silly gunzTarPerm modified mode [ 'src/directives/control_container.js.map', 420, 436 ]
+251 silly gunzTarPerm extractEntry src/directives/ng_model_group.js.map
+252 silly gunzTarPerm modified mode [ 'src/directives/ng_model_group.js.map', 420, 436 ]
+253 silly gunzTarPerm extractEntry src/directives/ng_model_group.metadata.json
+254 silly gunzTarPerm modified mode [ 'src/directives/ng_model_group.metadata.json', 420, 436 ]
+255 silly gunzTarPerm extractEntry src/directives/normalize_validator.d.ts
+256 silly gunzTarPerm modified mode [ 'src/directives/normalize_validator.d.ts', 420, 436 ]
+257 silly gunzTarPerm extractEntry src/directives/control_value_accessor.d.ts
+258 silly gunzTarPerm modified mode [ 'src/directives/control_value_accessor.d.ts', 420, 436 ]
+259 silly gunzTarPerm extractEntry src/directives/normalize_validator.js.map
+260 silly gunzTarPerm modified mode [ 'src/directives/normalize_validator.js.map', 420, 436 ]
+261 silly gunzTarPerm extractEntry src/directives/number_value_accessor.d.ts
+262 silly gunzTarPerm modified mode [ 'src/directives/number_value_accessor.d.ts', 420, 436 ]
+263 silly gunzTarPerm extractEntry src/directives/abstract_control_directive.d.ts
+264 silly gunzTarPerm modified mode [ 'src/directives/abstract_control_directive.d.ts', 420, 436 ]
+265 silly gunzTarPerm extractEntry src/directives/number_value_accessor.js.map
+266 silly gunzTarPerm modified mode [ 'src/directives/number_value_accessor.js.map', 420, 436 ]
+267 silly gunzTarPerm extractEntry src/directives/number_value_accessor.metadata.json
+268 silly gunzTarPerm modified mode [ 'src/directives/number_value_accessor.metadata.json',
+268 silly gunzTarPerm   420,
+268 silly gunzTarPerm   436 ]
+269 silly gunzTarPerm extractEntry src/directives/radio_control_value_accessor.d.ts
+270 silly gunzTarPerm modified mode [ 'src/directives/radio_control_value_accessor.d.ts', 420, 436 ]
+271 silly gunzTarPerm extractEntry src/directives/control_value_accessor.js.map
+272 silly gunzTarPerm modified mode [ 'src/directives/control_value_accessor.js.map', 420, 436 ]
+273 silly gunzTarPerm extractEntry src/directives/radio_control_value_accessor.js.map
+274 silly gunzTarPerm modified mode [ 'src/directives/radio_control_value_accessor.js.map',
+274 silly gunzTarPerm   420,
+274 silly gunzTarPerm   436 ]
+275 silly gunzTarPerm extractEntry src/directives/radio_control_value_accessor.metadata.json
+276 silly gunzTarPerm modified mode [ 'src/directives/radio_control_value_accessor.metadata.json',
+276 silly gunzTarPerm   420,
+276 silly gunzTarPerm   436 ]
+277 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_name.js
+278 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_name.js',
+278 silly gunzTarPerm   420,
+278 silly gunzTarPerm   436 ]
+279 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_directive.js
+280 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_directive.js',
+280 silly gunzTarPerm   420,
+280 silly gunzTarPerm   436 ]
+281 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_directive.js
+282 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_directive.js',
+282 silly gunzTarPerm   420,
+282 silly gunzTarPerm   436 ]
+283 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_name.js
+284 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_name.js',
+284 silly gunzTarPerm   420,
+284 silly gunzTarPerm   436 ]
+285 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_directive.d.ts
+286 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_directive.d.ts',
+286 silly gunzTarPerm   420,
+286 silly gunzTarPerm   436 ]
+287 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_directive.d.ts
+288 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_directive.d.ts',
+288 silly gunzTarPerm   420,
+288 silly gunzTarPerm   436 ]
+289 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_name.js.map
+290 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_name.js.map',
+290 silly gunzTarPerm   420,
+290 silly gunzTarPerm   436 ]
+291 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_name.metadata.json
+292 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_name.metadata.json',
+292 silly gunzTarPerm   420,
+292 silly gunzTarPerm   436 ]
+293 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_directive.js.map
+294 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_directive.js.map',
+294 silly gunzTarPerm   420,
+294 silly gunzTarPerm   436 ]
+295 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_directive.metadata.json
+296 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_directive.metadata.json',
+296 silly gunzTarPerm   420,
+296 silly gunzTarPerm   436 ]
+297 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_directive.js.map
+298 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_directive.js.map',
+298 silly gunzTarPerm   420,
+298 silly gunzTarPerm   436 ]
+299 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_directive.metadata.json
+300 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_directive.metadata.json',
+300 silly gunzTarPerm   420,
+300 silly gunzTarPerm   436 ]
+301 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_name.d.ts
+302 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_name.d.ts',
+302 silly gunzTarPerm   420,
+302 silly gunzTarPerm   436 ]
+303 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_control_name.d.ts
+304 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_control_name.d.ts',
+304 silly gunzTarPerm   420,
+304 silly gunzTarPerm   436 ]
+305 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_name.js.map
+306 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_name.js.map',
+306 silly gunzTarPerm   420,
+306 silly gunzTarPerm   436 ]
+307 silly gunzTarPerm extractEntry src/directives/reactive_directives/form_group_name.metadata.json
+308 silly gunzTarPerm modified mode [ 'src/directives/reactive_directives/form_group_name.metadata.json',
+308 silly gunzTarPerm   420,
+308 silly gunzTarPerm   436 ]
+309 silly gunzTarPerm extractEntry src/directives/reactive_errors.d.ts
+310 silly gunzTarPerm modified mode [ 'src/directives/reactive_errors.d.ts', 420, 436 ]
+311 silly gunzTarPerm extractEntry src/directives/control_value_accessor.metadata.json
+312 silly gunzTarPerm modified mode [ 'src/directives/control_value_accessor.metadata.json',
+312 silly gunzTarPerm   420,
+312 silly gunzTarPerm   436 ]
+313 silly gunzTarPerm extractEntry src/directives/reactive_errors.js.map
+314 silly gunzTarPerm modified mode [ 'src/directives/reactive_errors.js.map', 420, 436 ]
+315 silly gunzTarPerm extractEntry src/directives/select_control_value_accessor.d.ts
+316 silly gunzTarPerm modified mode [ 'src/directives/select_control_value_accessor.d.ts', 420, 436 ]
+317 silly gunzTarPerm extractEntry src/directives/default_value_accessor.d.ts
+318 silly gunzTarPerm modified mode [ 'src/directives/default_value_accessor.d.ts', 420, 436 ]
+319 silly gunzTarPerm extractEntry src/directives/select_control_value_accessor.js.map
+320 silly gunzTarPerm modified mode [ 'src/directives/select_control_value_accessor.js.map',
+320 silly gunzTarPerm   420,
+320 silly gunzTarPerm   436 ]
+321 silly gunzTarPerm extractEntry src/directives/select_control_value_accessor.metadata.json
+322 silly gunzTarPerm modified mode [ 'src/directives/select_control_value_accessor.metadata.json',
+322 silly gunzTarPerm   420,
+322 silly gunzTarPerm   436 ]
+323 silly gunzTarPerm extractEntry src/directives/select_multiple_control_value_accessor.d.ts
+324 silly gunzTarPerm modified mode [ 'src/directives/select_multiple_control_value_accessor.d.ts',
+324 silly gunzTarPerm   420,
+324 silly gunzTarPerm   436 ]
+325 silly gunzTarPerm extractEntry src/directives/abstract_form_group_directive.js.map
+326 silly gunzTarPerm modified mode [ 'src/directives/abstract_form_group_directive.js.map',
+326 silly gunzTarPerm   420,
+326 silly gunzTarPerm   436 ]
+327 silly gunzTarPerm extractEntry src/directives/select_multiple_control_value_accessor.js.map
+328 silly gunzTarPerm modified mode [ 'src/directives/select_multiple_control_value_accessor.js.map',
+328 silly gunzTarPerm   420,
+328 silly gunzTarPerm   436 ]
+329 silly gunzTarPerm extractEntry src/directives/select_multiple_control_value_accessor.metadata.json
+330 silly gunzTarPerm modified mode [ 'src/directives/select_multiple_control_value_accessor.metadata.json',
+330 silly gunzTarPerm   420,
+330 silly gunzTarPerm   436 ]
+331 silly gunzTarPerm extractEntry src/directives/shared.d.ts
+332 silly gunzTarPerm modified mode [ 'src/directives/shared.d.ts', 420, 436 ]
+333 silly gunzTarPerm extractEntry src/directives/default_value_accessor.js.map
+334 silly gunzTarPerm modified mode [ 'src/directives/default_value_accessor.js.map', 420, 436 ]
+335 silly gunzTarPerm extractEntry src/directives/shared.js.map
+336 silly gunzTarPerm modified mode [ 'src/directives/shared.js.map', 420, 436 ]
+337 silly gunzTarPerm extractEntry src/directives/shared.metadata.json
+338 silly gunzTarPerm modified mode [ 'src/directives/shared.metadata.json', 420, 436 ]
+339 silly gunzTarPerm extractEntry src/directives/template_driven_errors.d.ts
+340 silly gunzTarPerm modified mode [ 'src/directives/template_driven_errors.d.ts', 420, 436 ]
+341 silly gunzTarPerm extractEntry src/directives/default_value_accessor.metadata.json
+342 silly gunzTarPerm modified mode [ 'src/directives/default_value_accessor.metadata.json',
+342 silly gunzTarPerm   420,
+342 silly gunzTarPerm   436 ]
+343 silly gunzTarPerm extractEntry src/directives/template_driven_errors.js.map
+344 silly gunzTarPerm modified mode [ 'src/directives/template_driven_errors.js.map', 420, 436 ]
+345 silly gunzTarPerm extractEntry src/directives/validators.d.ts
+346 silly gunzTarPerm modified mode [ 'src/directives/validators.d.ts', 420, 436 ]
+347 silly gunzTarPerm extractEntry src/directives/error_examples.d.ts
+348 silly gunzTarPerm modified mode [ 'src/directives/error_examples.d.ts', 420, 436 ]
+349 silly gunzTarPerm extractEntry src/directives/validators.js.map
+350 silly gunzTarPerm modified mode [ 'src/directives/validators.js.map', 420, 436 ]
+351 silly gunzTarPerm extractEntry src/directives/validators.metadata.json
+352 silly gunzTarPerm modified mode [ 'src/directives/validators.metadata.json', 420, 436 ]
+353 silly gunzTarPerm extractEntry src/form_builder.js.map
+354 silly gunzTarPerm modified mode [ 'src/form_builder.js.map', 420, 436 ]
+355 silly gunzTarPerm extractEntry src/form_builder.metadata.json
+356 silly gunzTarPerm modified mode [ 'src/form_builder.metadata.json', 420, 436 ]
+357 silly gunzTarPerm extractEntry src/form_providers.d.ts
+358 silly gunzTarPerm modified mode [ 'src/form_providers.d.ts', 420, 436 ]
+359 silly gunzTarPerm extractEntry src/directives.js.map
+360 silly gunzTarPerm modified mode [ 'src/directives.js.map', 420, 436 ]
+361 silly gunzTarPerm extractEntry src/form_providers.js.map
+362 silly gunzTarPerm modified mode [ 'src/form_providers.js.map', 420, 436 ]
+363 silly gunzTarPerm extractEntry src/directives.d.ts
+364 silly gunzTarPerm modified mode [ 'src/directives.d.ts', 420, 436 ]
+365 silly gunzTarPerm extractEntry src/forms.d.ts
+366 silly gunzTarPerm modified mode [ 'src/forms.d.ts', 420, 436 ]
+367 silly gunzTarPerm extractEntry src/directives.metadata.json
+368 silly gunzTarPerm modified mode [ 'src/directives.metadata.json', 420, 436 ]
+369 silly gunzTarPerm extractEntry src/forms.js.map
+370 silly gunzTarPerm modified mode [ 'src/forms.js.map', 420, 436 ]
+371 silly gunzTarPerm extractEntry src/forms.metadata.json
+372 silly gunzTarPerm modified mode [ 'src/forms.metadata.json', 420, 436 ]
+373 silly gunzTarPerm extractEntry src/model.d.ts
+374 silly gunzTarPerm modified mode [ 'src/model.d.ts', 420, 436 ]
+375 silly gunzTarPerm extractEntry src/facade/collection.js
+376 silly gunzTarPerm modified mode [ 'src/facade/collection.js', 420, 436 ]
+377 silly gunzTarPerm extractEntry src/facade/async.js
+378 silly gunzTarPerm modified mode [ 'src/facade/async.js', 420, 436 ]
+379 silly gunzTarPerm extractEntry src/facade/lang.js
+380 silly gunzTarPerm modified mode [ 'src/facade/lang.js', 420, 436 ]
+381 silly gunzTarPerm extractEntry src/facade/collection.js.map
+382 silly gunzTarPerm modified mode [ 'src/facade/collection.js.map', 420, 436 ]
+383 silly gunzTarPerm extractEntry src/facade/collection.d.ts
+384 silly gunzTarPerm modified mode [ 'src/facade/collection.d.ts', 420, 436 ]
+385 silly gunzTarPerm extractEntry src/facade/async.d.ts
+386 silly gunzTarPerm modified mode [ 'src/facade/async.d.ts', 420, 436 ]
+387 silly gunzTarPerm extractEntry src/facade/async.js.map
+388 silly gunzTarPerm modified mode [ 'src/facade/async.js.map', 420, 436 ]
+389 silly gunzTarPerm extractEntry src/facade/collection.metadata.json
+390 silly gunzTarPerm modified mode [ 'src/facade/collection.metadata.json', 420, 436 ]
+391 silly gunzTarPerm extractEntry src/facade/lang.d.ts
+392 silly gunzTarPerm modified mode [ 'src/facade/lang.d.ts', 420, 436 ]
+393 silly gunzTarPerm extractEntry src/facade/async.metadata.json
+394 silly gunzTarPerm modified mode [ 'src/facade/async.metadata.json', 420, 436 ]
+395 silly gunzTarPerm extractEntry src/facade/lang.js.map
+396 silly gunzTarPerm modified mode [ 'src/facade/lang.js.map', 420, 436 ]
+397 silly gunzTarPerm extractEntry src/facade/lang.metadata.json
+398 silly gunzTarPerm modified mode [ 'src/facade/lang.metadata.json', 420, 436 ]
+399 silly gunzTarPerm extractEntry src/model.js.map
+400 silly gunzTarPerm modified mode [ 'src/model.js.map', 420, 436 ]
+401 silly gunzTarPerm extractEntry src/model.metadata.json
+402 silly gunzTarPerm modified mode [ 'src/model.metadata.json', 420, 436 ]
+403 silly gunzTarPerm extractEntry src/validators.d.ts
+404 silly gunzTarPerm modified mode [ 'src/validators.d.ts', 420, 436 ]
+405 silly gunzTarPerm extractEntry src/form_builder.d.ts
+406 silly gunzTarPerm modified mode [ 'src/form_builder.d.ts', 420, 436 ]
+407 silly gunzTarPerm extractEntry src/validators.js.map
+408 silly gunzTarPerm modified mode [ 'src/validators.js.map', 420, 436 ]
+409 silly gunzTarPerm extractEntry src/validators.metadata.json
+410 silly gunzTarPerm modified mode [ 'src/validators.metadata.json', 420, 436 ]
+411 verbose write writing to /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms/package.json
+412 info preinstall @angular/forms@2.0.0-rc.7
+413 verbose readDependencies loading dependencies from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms/package.json
+414 silly prepareForInstallMany adding @angular/core@^2.0.0-rc.7 from @angular/forms peerDependencies
+415 silly prepareForInstallMany adding @angular/common@^2.0.0-rc.7 from @angular/forms peerDependencies
+416 warn peerDependencies The peer dependency @angular/core@^2.0.0-rc.7 included from @angular/forms will no
+417 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+418 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+419 warn peerDependencies The peer dependency @angular/common@^2.0.0-rc.7 included from @angular/forms will no
+420 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+421 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+422 verbose readDependencies loading dependencies from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms/package.json
+423 silly install resolved []
+424 verbose about to build /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+425 info build /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+426 info linkStuff @angular/forms@2.0.0-rc.7
+427 silly linkStuff @angular/forms@2.0.0-rc.7 has /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules as its parent node_modules
+428 verbose linkBins @angular/forms@2.0.0-rc.7
+429 verbose linkMans @angular/forms@2.0.0-rc.7
+430 verbose rebuildBundles @angular/forms@2.0.0-rc.7
+431 info install @angular/forms@2.0.0-rc.7
+432 info postinstall @angular/forms@2.0.0-rc.7
+433 verbose readDependencies loading dependencies from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json
+434 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/concurrently/package.json
+435 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/core-js/package.json
+436 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms/package.json
+437 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/lite-server/package.json
+438 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/reflect-metadata/package.json
+439 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/rxjs/package.json
+440 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/systemjs/package.json
+441 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/tsc/package.json
+442 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/typescript/package.json
+443 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/zone.js/package.json
+444 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/concurrent/package.json
+445 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/concurrently/package.json
+446 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/lite-server/package.json
+447 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/tsc/package.json
+448 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/.bin/tsserver/package.json
+449 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/common/package.json
+450 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/compiler/package.json
+451 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/core/package.json
+452 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms/package.json
+453 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser/package.json
+454 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/platform-browser-dynamic/package.json
+455 verbose targetResolver reading package data from /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/router/package.json
+456 verbose already installed skipping @angular/common@^2.0.0-rc.7 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+457 verbose already installed skipping @angular/core@^2.0.0-rc.7 /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+458 silly install resolved []
+459 verbose unlock done using /home/kbadova/.npm/_locks/angular-forms-4c6e85ad09a55ef5.lock for /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/@angular/forms
+460 info build /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1
+461 info linkStuff app@1.0.0
+462 silly linkStuff app@1.0.0 has /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks as its parent node_modules
+463 verbose linkBins app@1.0.0
+464 verbose linkMans app@1.0.0
+465 verbose rebuildBundles app@1.0.0
+466 verbose rebuildBundles [ '.bin',
+466 verbose rebuildBundles   '@angular',
+466 verbose rebuildBundles   'concurrently',
+466 verbose rebuildBundles   'core-js',
+466 verbose rebuildBundles   'forms',
+466 verbose rebuildBundles   'lite-server',
+466 verbose rebuildBundles   'reflect-metadata',
+466 verbose rebuildBundles   'rxjs',
+466 verbose rebuildBundles   'systemjs',
+466 verbose rebuildBundles   'tsc',
+466 verbose rebuildBundles   'typescript',
+466 verbose rebuildBundles   'zone.js' ]
+467 verbose rebuild bundle /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms
+468 info build /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules/forms
+469 info preinstall forms@1.2.0
+470 info linkStuff forms@1.2.0
+471 silly linkStuff forms@1.2.0 has /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/node_modules as its parent node_modules
+472 verbose linkBins forms@1.2.0
+473 verbose linkMans forms@1.2.0
+474 verbose rebuildBundles forms@1.2.0
+475 info install forms@1.2.0
+476 info postinstall forms@1.2.0
+477 info install app@1.0.0
+478 info postinstall app@1.0.0
+479 info prepublish app@1.0.0
+480 verbose validateInstall loading /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/package.json for validation
+481 verbose stack Error: The package @angular/common@2.0.0-rc.6 does not satisfy its siblings' peerDependencies requirements!
+481 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+481 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+481 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+481 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+481 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+481 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+481 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+481 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+481 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+481 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+482 verbose cwd /home/kbadova/Projects/angular2_course/Angular-2/week1/tasks/1/app/components/app.component
+483 error Linux 4.4.0-36-generic
+484 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+485 error node v4.4.5
+486 error npm  v2.15.5
+487 error code EPEERINVALID
+488 error peerinvalid The package @angular/common@2.0.0-rc.6 does not satisfy its siblings' peerDependencies requirements!
+488 error peerinvalid Peer @angular/platform-browser@2.0.0-rc.6 wants @angular/common@^2.0.0-rc.6
+488 error peerinvalid Peer @angular/platform-browser-dynamic@2.0.0-rc.6 wants @angular/common@^2.0.0-rc.6
+488 error peerinvalid Peer @angular/router@3.0.0-rc.2 wants @angular/common@^2.0.0-rc.6
+488 error peerinvalid Peer @angular/forms@2.0.0-rc.7 wants @angular/common@^2.0.0-rc.7
+489 verbose exit [ 1, true ]
